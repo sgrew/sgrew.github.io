@@ -12,7 +12,7 @@
 // He is the founder of theoretical computer science and inventor of
 // the Turing machine, Turing test, Turing-completeness and many other
 // significant contributions. He was instrumental in the cryptanalysis
-// of the Engima ciphering system used by the Nazi Germany. This 
+// of the Engima ciphering system used by the Nazi Germany. This
 // effort was adapted for the film "Imitation Game".
 
 #include <iostream>
@@ -20,33 +20,30 @@ using namespace std;
 
 int main(int argc, char* argv[])
 {
-  
-  // TODO: Declare 2 integers.
-  //       Remember the official style guide is online at
-  //       http://bit.ly/37Dl4UJ
 
-  // TODO: Prompt the user for the first integer.
+int x;
+int y;
+
   cout << "Please enter the first integer: ";
+cin >> x;
 
-  // TODO: Prompt the user for the second integer.
   cout << "Please enter the second integer: ";
+cin >> y;
 
-  // TODO: Print the sum (+) of the two numbers with a message.
-  // Remember that "\n" means new line
-  cout << "The sum is " << "\n";
-  
-  // TODO: Print the difference (-) of the two numbers with a message.
-  cout << "The difference is " << "\n";
+int sum = x + y;
+cout << "The sum is " << sum << "\n";
 
-  // TODO: Print the product (*) of the two numbers with a message.
-  cout << "The product is " << "\n";
-  
-  // TODO: Print the quotient (/) of the two numbers with a message.
-  // Assume the second number is subtracted from the first.
-  cout << "The product is " << "\n";
+int difference = x - y;
+cout << "The difference is " << difference << "\n";
+
+  int product = x * y;
+  cout << "The product is " << difference << "\n";
+
+  int quotient = x / y;
+  cout << "The quotient is " << quotient << "\n";
 
 
-  // TODO: Remove all the TODO comments!
-  
+
+
   return 0;
 }
